@@ -22,6 +22,7 @@ INSERT INTO Produtos (Nome_do_Produto, Preco) VALUES
 
 --Conferir Produtos
 SELECT * FROM Produtos;
+SELECT * FROM Itens_Pedido;
 
 --Inserir Pedidos
 --Certificando-se de que os clientes existem
