@@ -9,6 +9,10 @@ CREATE TABLE Clientes(
 	Telefone VARCHAR(20)
 );
 
+--Mudando o nome da tabela!
+USE Empresa_3B;
+EXEC sp_rename 'Itens_Pedido.Qualidade', 'Quantidade', 'COLUMN';
+
 --Tabela pedidos
 CREATE TABLE Pedidos(
 	ID_Pedido INT IDENTITY PRIMARY KEY,
